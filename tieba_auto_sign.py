@@ -136,4 +136,4 @@ def auto_sign(user_name, password):
     return {"status": True, "result": info_list}
 
 
-print login("user_name_here", "password_here")
+print auto_sign("user_name_here", "password_here")
